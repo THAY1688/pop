@@ -1,0 +1,261 @@
+* {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+nav{
+    background-color: rgb(178, 194, 221);
+    display: flex;
+    width: 100%;
+    padding: 10px;
+}
+.photo{
+    display: flex;
+}
+.photo img{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
+nav h1{
+    font-family: sans-serif;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    margin-left: 12px;
+    margin-top: 12px;
+}
+nav ul{
+    align-items: center;
+    margin-left: 680px;
+    gap: 16px;
+    display: flex;
+    text-decoration: none;
+}
+#special {
+    font-size: 16px;
+    margin-left: 12px;
+    background-color: white;
+    color: black;
+    padding: 14px;
+    border-radius: 24px;
+}
+#special:hover{
+    background-color: black;
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+}
+nav ul a{   
+     color: black; 
+    list-style: none;
+    font-family: sans-serif;
+}
+header{
+    height: 64vh;
+    background-image: url(https://cdn.pixabay.com/photo/2019/12/30/17/57/seascape-4730202_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+    width: 100%;
+    margin: 0;
+}
+.info{
+    padding: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    margin-left: 48px;
+}
+.info h1{
+    font-size: 32px;
+    color: white;
+}
+.info h2{
+    font-size: 24px;
+    color: white;
+}
+.info h3{
+    font-size: 16px;
+    color: white;
+    margin-left: 16px;
+    margin-top: 8px;
+}
+.info  form input[type="text"]{
+    margin-top: 36px;
+    height: 36px;
+    width: 512px;
+    padding: 8px 14px;
+    border-radius: 800px;
+    border: none;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    gap: 24px;
+    margin-top: 48px;
+    margin-left: 60px;
+    flex-wrap: wrap;
+    width: 32%;
+    display: flex;
+}
+.container .process{
+    padding: 12px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    background: white;
+    border: none;
+    border-radius: 16px;
+}
+.container h1{
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.container p{
+    text-align: center;
+    width: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8px;
+    color: black;
+}
+.container .process1{
+    padding: 12px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    background: white;
+    border: none;
+    border-radius: 16px;
+}
+.container h1{
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.container p{
+    text-align: center;
+    width: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8px;
+    color: black;
+}
+.container .process2{
+    padding: 12px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    background: white;
+    border: none;
+    border-radius: 16px;
+}
+.container h1{
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.container p{
+    text-align: center;
+    width: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8px;
+    color: black;
+}
+.container .process3{
+    padding: 12px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    background: white;
+    border: none;
+    border-radius: 16px;
+}
+.container h1{
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.container p{
+    text-align: center;
+    width: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8px;
+    color: black;
+}
+.more-info{
+    margin-top: -170px;
+    background: white;
+    border: none;
+    border-radius: 24px;
+    padding: 12px;
+    margin-left: 480px;
+    width: 50%;
+
+}
+.more-info h1{
+    width: 240px;
+    font-size: 20px;
+    gap: 12px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.more-info p{
+    margin-left: 2px;
+    width: 540px;
+    margin-top: 12px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.more-info button{
+    text-align: center;
+    width: 240px;
+    border: none;
+    margin-top: 28px;
+    padding: 12px;
+    background: gray;
+    border-radius: 24px;
+    color: white;
+
+}
+main{
+    width: 100%;
+    margin-top: 48px;
+
+}
+main .word{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.word h3{
+    font-size: 36px;
+    margin-top: 32px;
+    width: 100%;
+    text-align: center;
+    color: black;
+    
+}
+main .p p{
+    margin-left: 420px;
+    text-align: center;
+    font-size: 12px;
+    margin-top:16px;
+    width: 32%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main .picture{
+    margin-top: 12px;
+    gap: 200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+.picture img{
+    width: 50px;
+    height: 50px;
+
+}
